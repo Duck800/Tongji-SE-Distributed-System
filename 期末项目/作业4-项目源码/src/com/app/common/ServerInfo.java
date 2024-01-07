@@ -1,5 +1,6 @@
 package com.app.common;
 
+import java.net.SocketImpl;
 import java.util.ArrayList;
 /**
  * 存储所有服务器结点（正常或者已离开的都算）
@@ -8,6 +9,7 @@ import java.util.ArrayList;
  */
 public class ServerInfo {
 
+    public static final SocketImpl dataPort = null;
     public static String []ip={"101.34.3.28","47.100.170.76","1.15.100.12"};//
     // public static String []receive_port={"2717","4399","3635"};
     // public static String []send_port={"",""};

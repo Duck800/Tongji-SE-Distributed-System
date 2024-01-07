@@ -3,7 +3,7 @@ import json
 import os
 
 data={}
-dirpath='E:\\underreality\\大三上\\分布式系统\\dblp\\'
+dirpath='G:\\1.Tongji\\Junior\\分布式系统\\dblp\\'
 files=os.listdir(dirpath)
 
 # print(files)
